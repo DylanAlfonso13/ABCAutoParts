@@ -1,0 +1,45 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.navbar {
+  width: 100%;
+  background-color: var(--foreground);
+  padding: 10px 0;
+}
+
+.navlist {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navitem a {
+  color: var(--background);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.main p {
+  font-size: 1.2rem;
+}
