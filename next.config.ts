@@ -2,10 +2,11 @@ const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    unoptimized: true, // Disable default image optimization
+    loader: 'akamai',
+    path: '',
   },
-  assetPrefix: isProd ? '/your-repository-name/' : '',
-  basePath: isProd ? '/your-repository-name' : '',
+  assetPrefix: isProd ? '/ABCAutoParts' : '',
+  basePath: isProd ? '/ABCAutoParts' : '',
   output: 'export'
 };
 
