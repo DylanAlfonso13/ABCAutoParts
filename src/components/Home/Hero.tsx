@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <div className="relative isolate mx-6 my-12 lg:px-8 bg-white rounded-lg overflow-hidden">
@@ -7,7 +9,7 @@ export default function Hero() {
             Quality Recycled Parts, Reliable Performance
           </h1>
           <p className="mt-8 text-pretty text-lg font-medium text-gray-600 sm:text-xl/8">
-            As Chicagoland's largest auto recycler, and with over 88 years of
+            As Chicagoland&apos;s largest auto recycler, and with over 88 years of
             experience in the business, ABC Auto Parts is committed to offering
             the highest quality parts, fastest and friendliest service, and best
             prices.
@@ -23,14 +25,22 @@ export default function Hero() {
               href="#"
               className="text-sm font-semibold leading-6 text-gray-900 group"
             >
-              Browse our inventory <span aria-hidden="true" className="inline-block transition-transform transform group-hover:translate-x-1">→</span>
+              Browse our inventory{" "}
+              <span
+                aria-hidden="true"
+                className="inline-block transition-transform transform group-hover:translate-x-1"
+              >
+                →
+              </span>
             </a>
           </div>
         </div>
         <div className="mt-10 px-5 lg:mt-0 lg:w-1/2 flex justify-center lg:justify-end">
-          <img
+          <Image
             src="/outsidephoto.jpeg"
-            alt=""
+            alt="Outside Photo"
+            width={500}
+            height={500}
             className="w-full lg:max-w-none rounded-lg shadow-lg"
           />
         </div>

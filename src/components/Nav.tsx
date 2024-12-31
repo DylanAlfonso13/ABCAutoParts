@@ -4,6 +4,7 @@ import {
   DisclosurePanel,
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Image from 'next/image';
 
 const navigation = [
   { name: "Home", href: "/", current: true },
@@ -12,7 +13,7 @@ const navigation = [
   { name: "Contact", href: "/contact", current: false },
 ];
 
-function classNames(...classes: any) {
+function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 
@@ -38,11 +39,13 @@ export default function Nav() {
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex shrink-0 items-center">
-              <img
-                alt="ABC Auto Parts Logo"
-                src="/ABCLogo.png"
-                className="h-16 w-auto"
-              />
+            <Image
+                    alt="ABC Logo"
+                    src="/ABCLogo.png"
+                    width={80}
+                    height={80}
+                    className="h-16 w-auto"
+                  />
             </div>
             <div className="hidden sm:ml-10 sm:flex sm:items-center">
               <div className="flex space-x-6">
