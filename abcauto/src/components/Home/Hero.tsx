@@ -23,7 +23,7 @@ export default function Hero() {
               href="#"
               className="text-sm font-semibold leading-6 text-gray-900 group"
             >
-              Learn more <span aria-hidden="true" className="inline-block transition-transform transform group-hover:translate-x-1">→</span>
+              Browse our inventory <span aria-hidden="true" className="inline-block transition-transform transform group-hover:translate-x-1">→</span>
             </a>
           </div>
         </div>
