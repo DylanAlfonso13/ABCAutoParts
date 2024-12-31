@@ -41,7 +41,7 @@ export default function Nav() {
             <div className="flex shrink-0 items-center">
             <Image
                     alt="ABC Logo"
-                    src="/ABCLogo.png"
+                    src="ABCLogo.png"
                     width={80}
                     height={80}
                     className="h-16 w-auto"

@@ -37,7 +37,7 @@ export default function Hero() {
         </div>
         <div className="mt-10 px-5 lg:mt-0 lg:w-1/2 flex justify-center lg:justify-end">
           <Image
-            src="/outsidephoto.jpeg"
+            src="outsidephoto.jpeg"
             alt="Outside Photo"
             width={500}
             height={500}
