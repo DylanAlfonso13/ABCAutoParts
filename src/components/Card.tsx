@@ -18,7 +18,7 @@ export default function Card({
   buttonLink,
   target,
   address,
-}: NewCardProps) {
+}: CardProps) {
   return (
     <div className="bg-white rounded-lg shadow-lg p-6 transform transition-transform hover:scale-105">
       <div className="flex flex-col items-start">
