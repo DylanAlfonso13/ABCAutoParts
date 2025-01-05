@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --background: #F3F4F6;
   --foreground: #171717;
 }
@@ -12,7 +12,7 @@
     --background: #171717;
     --foreground: #F3F4F6;
   }
-}
+} */
 
 html,
 body {

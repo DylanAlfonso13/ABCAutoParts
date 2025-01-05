@@ -1,6 +1,6 @@
 import Nav from '../components/Nav';
-import Hero from '../components/Home/Hero';
-import Cards from '../components/Home/Cards';
+import Hero from '../components/index/Hero';
+import Cards from '../components/index/Cards';
 
 export default function Home() {
   return (
