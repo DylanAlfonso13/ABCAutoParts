@@ -9,6 +9,9 @@ module.exports = {
         accent: '#FF161C', // Example custom color
         white: '#ffffff', // white
       },
+      screens: {
+        xs: '400px', // Custom breakpoint at 400px
+      },
     },
   },
   plugins: [],

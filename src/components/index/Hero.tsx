@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="relative isolate mx-6 my-12 lg:px-8 bg-white rounded-lg overflow-hidden">
+    <div className="relative isolate mx-6 my-12 lg:px-8 bg-white rounded-lg shadow-lg overflow-hidden">
       <div className="mx-auto max-w-7xl py-24 sm:py-32 lg:py-36 flex flex-col lg:flex-row items-center relative z-10">
         <div className="text-center lg:text-left lg:w-1/2">
-          <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl pb-10">
+          <h1 className="text-balance text-5xl pb-7 font-semibold tracking-tight text-gray-900 xs:text-6xl sm:text-7xl sm:pb-10">
             Quality Recycled Parts, Reliable Performance
           </h1>
-          <p className="mt-8 text-pretty text-lg font-medium text-gray-600 sm:text-xl/8">
+          <p className="mt-8 text-pretty text-lg font-medium text-gray-600 sm:text-xl/8 lg:mx-0 mx-2">
             As Chicagoland&apos;s largest auto recycler, and with over 88 years of
             experience in the business, ABC Auto Parts is committed to offering
             the highest quality parts, fastest and friendliest service, and best
@@ -22,8 +22,9 @@ export default function Hero() {
               Contact Us
             </a>
             <a
-              href="#"
+              href="https://abcautoparts.hollanderstores.com/"
               className="text-sm font-semibold leading-6 text-gray-900 group"
+              target="_blank"
             >
               Browse our inventory{" "}
               <span
@@ -46,7 +47,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Additional colorful decoration */}
+      {/* Decoration on main part */}
       <div
         aria-hidden="true"
         className="absolute bottom-0 right-0 w-96 h-96 bg-primary opacity-20 rounded-full blur-3xl transform translate-x-10 translate-y-20 z-0"
