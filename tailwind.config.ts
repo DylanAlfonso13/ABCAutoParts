@@ -9,8 +9,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: '#1033B3', // Example custom color
+        secondary: '#63a0f3', // Example custom color
+        accent: '#FF161C', // Example custom color
+        white: '#ffffff', // white
+      },
+      screens: {
+        xs: '400px', // Custom breakpoint at 400px
       },
     },
   },
